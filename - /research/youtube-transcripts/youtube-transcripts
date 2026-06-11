@@ -1,0 +1,116 @@
+Getting YouTube Transcripts: 3 Methods, Ranked by Ease
+Method 1: youtube-transcript-api (Free, No API Key Needed) — Best Starting Point
+This is the fastest and most reliable free method.
+bashpip install youtube-transcript-api
+pythonfrom youtube_transcript_api import YouTubeTranscriptApi
+
+# Single video
+video_id = "dQw4w9WgXcQ"  # the part after ?v= in the URL
+transcript = YouTubeTranscriptApi.get_transcript(video_id)
+
+# Join into a clean text block
+full_text = " ".join([entry['text'] for entry in transcript])
+print(full_text)
+To save it as a file (ready for your GitHub repo structure):
+pythonimport os
+
+def save_transcript(video_id, author_name, video_title):
+    transcript = YouTubeTranscriptApi.get_transcript(video_id)
+    full_text = " ".join([entry['text'] for entry in transcript])
+    
+    folder = f"research/youtube-transcripts/{author_name}"
+    os.makedirs(folder, exist_ok=True)
+    
+    filename = f"{folder}/{video_title.replace(' ', '_')}.txt"
+    with open(filename, "w") as f:
+        f.write(f"# {video_title}\n")
+        f.write(f"Video ID: {video_id}\n\n")
+        f.write(full_text)
+    print(f"Saved: {filename}")
+Works for: Any public YouTube video that has captions (auto-generated or manual). Aleyda's Crawling Mondays videos almost always have them.
+Fails for: Videos with no captions at all (rare for your expert list).
+
+Method 2: Supadata API (Mentioned in Your Task Doc)
+Supadata is what the task specifically references. It has a free tier.
+bashpip install requests
+pythonimport requests
+
+def get_transcript_supadata(youtube_url, api_key):
+    response = requests.get(
+        "https://api.supadata.ai/v1/youtube/transcript",
+        params={"url": youtube_url, "text": True},
+        headers={"x-api-key": api_key}
+    )
+    data = response.json()
+    return data.get("content", "")
+
+# Usage
+transcript = get_transcript_supadata(
+    "https://www.youtube.com/watch?v=VIDEO_ID",
+    api_key="your_key_here"
+)
+Sign up at supadata.ai to get your free API key. Good to use alongside Method 1 as a fallback.
+
+Method 3: Official YouTube Data API v3 (For Getting Video Lists First)
+You need this to find all videos from a channel before transcribing them. Get a free API key from Google Cloud Console.
+pythonfrom googleapiclient.discovery import build
+
+def get_channel_videos(channel_id, api_key, max_results=10):
+    youtube = build("youtube", "v3", developerKey=api_key)
+    
+    request = youtube.search().list(
+        part="snippet",
+        channelId=channel_id,
+        maxResults=max_results,
+        order="date",
+        type="video"
+    )
+    response = request.execute()
+    
+    videos = []
+    for item in response["items"]:
+        videos.append({
+            "video_id": item["id"]["videoId"],
+            "title": item["snippet"]["title"],
+            "date": item["snippet"]["publishedAt"]
+        })
+    return videos
+Then pipe those video IDs straight into Method 1 to get transcripts.
+
+Practical Workflow for Your Repo
+Here is how to combine all three into a clean collection script:
+pythonfrom youtube_transcript_api import YouTubeTranscriptApi
+import os, json
+
+EXPERTS = {
+    "aleyda_solis": {
+        "channel_id": "UCfzSMJbN8vUj8kOkDWwFxGg",  # Crawling Mondays
+        "videos": [
+            {"id": "VIDEO_ID_1", "title": "How AI Changed My SEO Workflow"},
+            {"id": "VIDEO_ID_2", "title": "LLMs vs Search Engines 2025"},
+        ]
+    },
+    "ross_simmonds": {
+        "channel_id": "CHANNEL_ID_HERE",
+        "videos": [...]
+    }
+}
+
+for author, data in EXPERTS.items():
+    for video in data["videos"]:
+        try:
+            transcript = YouTubeTranscriptApi.get_transcript(video["id"])
+            text = " ".join([t["text"] for t in transcript])
+            
+            path = f"research/youtube-transcripts/{author}"
+            os.makedirs(path, exist_ok=True)
+            
+            with open(f"{path}/{video['id']}.md", "w") as f:
+                f.write(f"# {video['title']}\n\n")
+                f.write(f"**Video ID:** {video['id']}\n\n")
+                f.write("## Transcript\n\n")
+                f.write(text)
+            
+            print(f"Done: {author} - {video['title']}")
+        except Exception as e:
+            print(f"Failed: {video['id']} - {e}")
