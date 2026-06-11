@@ -113,4 +113,33 @@ for author, data in EXPERTS.items():
             
             print(f"Done: {author} - {video['title']}")
         except Exception as e:
-            print(f"Failed: {video['id']} - {e}")
+            print(f"Failed: {video['id']} - {e}")      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Experts WITH Dedicated YouTube Channels (High Priority for Transcripts)			
+			
+#	Expert	             YouTube Channel URL	                                                      Notes
+4	Aleyda Solis	youtube.com/@CrawlingMondaysbyAleyda	                                          Most active — weekly episodes, 200+ videos. Best source.
+5	Ross Simmonds	youtube.com/channel/UCtg49RXJ7nSfEudai4yyDcA	                                  Active channel, content on distribution & AI marketing.
+6	Nathan Gotch	youtube.com/@nathangotch	                                                      100k+ subscribers, very active — best beginner-to-advanced SEO + AI content.
+8	Brendan Hufford	youtube.com/c/brendanhufford	                                                  Has a channel (SEO for the Rest of Us), though less active recently vs his LinkedIn/newsletter.
+9	Lazarina Stoy	Personal: youtube.com/@lazarinastoy + Brand: youtube.com/@MLforSEO	              Two channels — grab from both. MLforSEO has course-style content.
+7	Kyle Roof	    youtube.com/channel/UCTkFHfq_inqsDWO1W9q7YAw                                      (High Voltage SEO)	Channel exists but less active. Also co-hosts SEO Fight Club — searchable on YouTube.
