@@ -1,0 +1,191 @@
+Purpose of This Document
+This file collects supplementary materials that sit outside the primary LinkedIn posts and YouTube transcripts folders. It includes conference talk summaries, newsletter excerpts, published articles, technical assessment notes, and key quotes — all drawn directly from the 10 experts profiled in this research project.
+Everything here is primary-source material, not secondary commentary. The goal is to support a real playbook on AI-powered SEO content production.
+
+1. Conference Talks & Public Presentations
+
+1.1 Ross Simmonds — SEO Week 2025
+Speaker: Ross Simmonds, CEO Foundation Marketing / Founder Distribution.ai
+Event: SEO Week 2025
+Topic: Reddit as a GEO Citation Source for LLMs
+Source: foundationinc.co / distribution.ai
+
+Key points covered:
+•	Used live GEO tracking tools to demonstrate how Reddit threads influence LLM outputs in real time.
+•	Argued that content distribution — not content creation — is the primary competitive advantage in AI search.
+•	Introduced the concept of AI content as a portfolio investment: create once, optimise forever.
+•	Presented a diversified content mix framework: validated SEO 30%, thought leadership 25%, and supporting formats making up the balance.
+“In 2026, the key to success isn’t the longest article — it’s the article that makes the reader say, Finally, someone understands me.”
+
+1.2 Kyle Roof — Digital Marketing Europe
+Speaker: Kyle Roof, Co-founder High Voltage SEO / Inventor Page Optimizer Pro (US Patent)
+Event: Digital Marketing Europe Conference
+Site: digitalmarketingcon.eu
+Topic: Scientific SEO Testing in the AI Era
+
+Key points covered:
+•	Presented the Lorem Ipsum experiment: ranking a page #1 using gibberish text plus target keywords, proving SEO is mathematical rather than semantic in isolation.
+•	400+ controlled ranking variable experiments. Holds a US patent on the testing methodology.
+•	Post-HCU update: changes in how Google’s algorithm filters content terms.
+•	Why AI-generated content still requires precise strategic prompting — generation is not optimisation.
+“As long as it’s an algorithm, even if it’s an AI-generated algorithm, that’s still an algorithm that needs optimization. We’ll be doing this until we don’t want to anymore.”
+
+
+2. Newsletters & Substack Articles
+
+2.1 Kevin Indig — Growth Memo
+Publication: Growth Memo (kevin-indig.com)
+Subscribers: 21,000+
+Research Period: February – March 2026
+Dataset: 846,000 sessions clickstream data
+
+Primary research findings:
+•	AI Mode behaviour: users accept the shortlist and click nothing else. Near-zero lateral clicks.
+•	AI Overview behaviour: comparison mode. 47.5% of users scroll backward after the overview to evaluate organic results.
+•	AI Mode optimisation is a visibility problem at the model layer — getting into the model’s training or retrieval set.
+•	AI Overview optimisation is a comparison problem on the SERP itself — being the preferred result among surfaced options.
+•	Keyword universe framework: maps when to optimise for models vs. humans based on query type.
+“AI Mode optimization is a visibility problem at the model layer. AI Overview optimization is a comparison problem on the SERP itself.”
+Advised brands: Ramp, Reddit, Snapchat, Dropbox. Podcast: Tech Bound (Spotify).
+
+2.2 Lily Ray — Algorythmic Substack
+Publication: lilyraynyc.substack.com
+Key Issue: 2025 Year-in-Review: GEO Research & AI Citation Tracking
+
+Key findings from Substack:
+•	Critical examination of GEO hype: distinguishes between what practitioners claim and what citation data shows.
+•	Reddit and UGC platforms are now active citation sources in AI-generated answers — not just SEO signals.
+•	E-E-A-T is the foundational layer for AI visibility, not a secondary concern.
+•	Cross-channel authority validation matters beyond backlinks: LinkedIn presence, podcast appearances, community engagement.
+•	Tracks AI citations at scale across Algorythmic’s client base — live experiments, not projections.
+“The goal is to leverage AI’s efficiency while maintaining genuine connection with your audience — not abandon AI but evolve how you use it.”
+
+2.3 Brendan Hufford — Newsletter (brendanhufford.com)
+Publication: brendanhufford.com
+Recognition: Inc 5000 Fastest Growing Businesses 2025
+Client Segment: SaaS companies scaling from $10M to $100M ARR
+
+Key findings from newsletter:
+•	Tracks 100+ AEO (Answer Engine Optimisation) prompts per client engagement — ongoing, not one-off.
+•	Data gaps between what Google publicly states and what the prompt tracking data shows.
+•	Generative engines extract answers, not rankings. The optimisation target has shifted fundamentally.
+•	Content IP Framework: a methodology for making content LLM-parseable through consistent, structured content chunks.
+•	This framework drove $134k in monthly organic traffic for a SaaS client.
+•	Coined the ‘checkbox marketing’ trap: publishing content that satisfies a checklist but does not create revenue-stage intent.
+“I’ve been tracking 100+ AEO prompts per client engagement for over a year. What I’m seeing in the data doesn’t match what Google is telling us.”
+
+
+3. Published Articles & External Contributions
+
+3.1 Lazarina Stoy — Search Engine Land
+Author: Lazarina Stoy, SEO + Data Science Consultant / Founder MLforSEO Academy
+Publication: Search Engine Land
+Topic: GPT-4 vs. Google Cloud APIs for SEO Automation
+Academy: academy.mlforseo.com
+Website: lazarinastoy.com
+
+Article scope and findings:
+•	Actual API benchmarking: GPT-4 vs. Google Cloud NLP APIs for SEO automation tasks. Not marketing — technical evaluation.
+•	When to use GPT-4: content transformation, summarisation, structured data generation at scale.
+•	When to use specialised APIs: entity recognition, sentiment at scale, classification with labelled data.
+•	Semantic SEO as the foundational layer: search engines now operate on meaning, not keyword matching.
+•	AI raises the average content quality bar — which raises the floor required to be competitive.
+•	Looker Studio dashboards for SEO data pipelines: making ML output actionable for non-technical stakeholders.
+•	Distinction between using AI for analysis vs. using AI for content generation — different tools, different risk profiles.
+“Semantic SEO IS SEO — success requires understanding that search engines now operate on meaning rather than keyword matching. AI raises the average content quality bar.”
+Upcoming: co-launching an AI-powered YouTube SEO course in 2025–26. Trains B2B and SaaS teams on ML-enabled workflows.
+
+3.2 Aleyda Solis — SimilarWeb Research Collaboration
+Researcher: Aleyda Solis, International SEO Consultant
+Study: Comparing Top Traffic Prompts vs. Queries Across Different Page Types
+Data Source: SimilarWeb
+Published: June 2025
+Project: LearningAIsearch.com (active build)
+
+Research findings:
+•	Mapped key differences between AI engine prompts and traditional Google queries across page types.
+•	Informational pages: AI prompts are longer, more conversational, and more contextually anchored than keyword queries.
+•	eCommerce pages: product pack SERPs require structured data optimisation distinct from traditional title/meta approaches.
+•	Practical LLM integration in SEO workflows without over-relying on them — a nuanced position on tooling.
+•	How to use LLMs for content audits at scale without introducing the hallucination risk into client reporting.
+
+
+4. Products Built by These Experts
+Several experts on this list are builders — they created products that embody their methodology. These products are primary sources in themselves: they demonstrate what the expert actually believes works, not just what they publish.
+
+Expert	Product	What It Does / Why It Matters
+Jake Ward	Byword (byword.ai)	AI SEO content platform. Helped Causal.app reach 1M monthly visitors. 'World’s Largest AI SEO Case Study' — 380 comments, production data.
+Ross Simmonds	Distribution.ai	Content distribution platform built on the thesis that distribution beats creation. Used at SEO Week 2025 to track GEO citations from Reddit threads.
+Nathan Gotch	Rankability (rankability.com)	Turns content quality into a measurable, systematic metric. Built alongside GotchSEO Academy to translate SEO theory into a trackable output.
+Kyle Roof	Page Optimizer Pro (pageoptimizer.pro)	US-patented SEO testing platform. Based on 400+ controlled ranking experiments. Mathematical optimisation over opinion-based SEO.
+Lazarina Stoy	MLforSEO Academy (academy.mlforseo.com)	Trains SEO practitioners and B2B/SaaS teams on ML-enabled workflows. Bridges data science and organic marketing.
+Aleyda Solis	LearningAIsearch.com (in development)	Live resource mapping the differences between traditional search and AI engine behaviour. Built alongside active client work.
+
+
+5. Technical Assessment — Data Collection Methods
+Four data collection approaches were tested during this research project. The following is an honest assessment of each method.
+
+5.1 Web Search — Highly Effective
+Status: ✓ Effective
+•	Used to triangulate expert credibility and verify claims made in LinkedIn posts and conference talks.
+•	Returned real 2025–26 content from newsletters, Substack articles, and indexed LinkedIn posts.
+•	Best use: finding original research, locating conference talk summaries, verifying follower counts and affiliations.
+
+5.2 Web Fetch — Partially Effective
+Status: ~ Partial
+•	Fetched actual LinkedIn post content, Substack articles, and conference talk transcripts where publicly indexed.
+•	Not all LinkedIn content is indexed. Some posts require being logged in to view.
+•	Substack articles (Lily Ray, Brendan Hufford) were accessible and fetchable.
+
+5.3 YouTube Transcripts via Supadata API — Feasible
+Status: ~ Feasible, not executed in sandbox
+•	Supadata API exists and is production-ready. Free tier: 100 requests/month.
+•	YouTube.com direct fetch returned 429 (rate-limited / blocked).
+•	Supadata requires API key signup — feasible in a live environment, not inside a sandboxed demo.
+•	Recommended for collecting Aleyda Solis (Crawling Mondays) and Nathan Gotch YouTube transcripts.
+
+5.4 LinkedIn Scraping — Limited
+Status: ~ Limited
+•	LinkedIn blocks unauthenticated scraping directly.
+•	Post snippets surfaced via Google indexing — adequate for sampling recent themes, not full post text.
+•	Manual collection is the reliable path for full post text.
+•	Recommended approach: log in, copy post text manually into /research/linkedin-posts/ per author.
+
+Method	Status	Notes
+Web search	✓ Effective	Credibility verification, content discovery, 2025–26 material. Best first-pass method.
+Web fetch	~ Partial	Works for Substack and indexed posts. LinkedIn requires authentication for full text.
+YouTube / Supadata API	~ Feasible	Production-ready. Requires API key. 100 free req/month. Not usable in sandbox.
+LinkedIn scraping	~ Limited	Direct scraping blocked. Google indexing surfaces snippets. Manual copy is reliable.
+
+
+6. Key Themes Across All Materials
+Drawn from synthesis of conference talks, newsletters, articles, and products above.
+
+Theme 1: AI Mode vs. AI Overview Are Fundamentally Different Optimisation Problems
+Kevin Indig’s clickstream research is the clearest articulation of this. AI Mode produces shortlist acceptance behaviour (no further clicks). AI Overview produces comparison behaviour (backward scroll, organic evaluation). They require different strategies: model-layer visibility vs. SERP-level comparison advantage.
+
+Theme 2: Reddit and UGC Are Now GEO Citation Sources
+Both Ross Simmonds (SEO Week 2025) and Lily Ray (Algorythmic research) identified Reddit threads as active citation sources in LLM-generated answers. This is a structural shift: platforms that were SEO signals are now AI training and retrieval sources.
+
+Theme 3: AI Accelerates SEO — It Does Not Replace SEO Thinking
+Nathan Gotch’s warning is the clearest formulation: AI helps bad SEO practitioners do bad SEO faster. Kyle Roof adds the mathematical angle: optimisation is optimisation regardless of whether the algorithm is AI-generated. Lazarina Stoy’s API benchmarking shows the technical side: AI for analysis vs. AI for generation are different risk profiles.
+
+Theme 4: Answer Engine Optimisation Is Already Trackable
+Brendan Hufford is running 100+ AEO prompt tracking per client. This is not a future capability — it is a current practice with a methodology. The gap between what Google says publicly and what the tracking data shows is his central finding.
+
+Theme 5: E-E-A-T Is the Foundation for AI Visibility
+Lily Ray’s core thesis. Building personal brand authority that LLMs recognise requires cross-channel validation: LinkedIn presence, third-party citations, conference appearances, and community engagement — not just backlinks.
+
+
+7. File Index for /research/other/
+This document is the primary file in /research/other/. Additional files to be added as collection continues:
+
+File	Contents
+additional-materials.docx	This file. Conference talks, newsletters, published articles, product notes, technical assessment, themes synthesis.
+growth-memo-ai-mode-research.md	Kevin Indig Growth Memo — 846k session clickstream study, Feb–Mar 2026. To be added.
+lily-ray-2025-review.md	Lily Ray Algorythmic Substack 2025 year-in-review. GEO citation tracking data. To be added.
+brendan-hufford-aeo-tracker.md	Brendan Hufford newsletter — AEO prompt tracking methodology. To be added.
+lazarina-stoy-sel-article.md	Lazarina Stoy, Search Engine Land — GPT-4 vs. Google Cloud APIs benchmarking. To be added.
+aleyda-solis-similarweb-study.md	Aleyda Solis + SimilarWeb — AI prompts vs. queries comparison, June 2025. To be added.
+simmonds-seo-week-2025-notes.md	Ross Simmonds SEO Week 2025 talk notes — Reddit as GEO source. To be added.
+
